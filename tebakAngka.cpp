@@ -3,8 +3,6 @@
 #include <ctime>
 using namespace std;
 
-// Bikin flowchart dulu oi
-
 int main() {
     srand(time(0));
 
@@ -25,6 +23,7 @@ int main() {
       if (tebakan < 1 || tebakan > 100) {
             cout << "Input harus antara 1 dan 100." << endl;
             continue;
+            percobaan--;
         }
 
         // Memberikan petunjuk

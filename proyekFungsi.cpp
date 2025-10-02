@@ -19,7 +19,7 @@ double bagi(int a, int b) {
         cout << "Error: pembagi tidak boleh nol!" << endl;
         return 0;
     }
-    return (double)a / b;
+    return (double) a / b;
 }
 
 int main() {
@@ -33,7 +33,7 @@ int main() {
         cout << "2. Pengurangan" << endl;
         cout << "3. Perkalian" << endl;
         cout << "4. Pembagian" << endl;
-        cout << "Pilihan: ";
+        cout << "Pilih Operasi: ";
         cin >> pilihan;
 
         cout << "Masukkan angka pertama: ";
